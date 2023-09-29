@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Informe de migración
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Informe de migración - </h1><div id="content"><h2 _locID="OverviewTitle">Información general</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Proyecto</th><th _locID="PathTableHeader">Ruta de acceso</th><th _locID="ErrorsTableHeader">Errores</th><th _locID="WarningsTableHeader">Advertencias</th><th _locID="MessagesTableHeader">Mensajes</th></tr><tr><td class="IconWarningEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solución</span></a></strong></td><td>Proyecto-ProVis.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#SolutionWarning">1</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Proyecto-ProVis">Proyecto-ProVis</a></strong></td><td>Proyecto-ProVis.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Proyecto-ProVis'); return false;">62</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solución y proyectos</h2><div id="messages"><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solución</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Mensaje</th></tr><tr name="WarningRowClassSolution"><td class="IconWarningEncoded"><a name="SolutionWarning" /></td><td class="messageCell"><strong>Proyecto-ProVis.sln:
+        </strong><span>Visual Studio debe hacer cambios no funcionales en este proyecto para poder abrirlo en versiones posteriores a Visual Studio 2010 SP1 sin que su comportamiento se vea afectado.</span></td></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Mostrar 2 mensajes adicionales
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.sln:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Proyecto-ProVis.sln</span></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.sln:
+        </strong><span>La solución se migró correctamente</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Ocultar 2 mensajes adicionales
+        </a></td></tr></table><a name="Proyecto-ProVis" /><h3>Proyecto-ProVis</h3><table><tr id="Proyecto-ProVisHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Mensaje</th></tr><tr name="MessageRowHeaderShowProyecto-ProVis"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="Proyecto-ProVisMessage" onclick="ToggleMessageVisibility('Proyecto-ProVis'); return false;">
+          Mostrar 62 mensajes adicionales
+        </a></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.vbproj:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo de proyecto C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Proyecto-ProVis.vbproj</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.vbproj.user:
+        </strong><span>La copia de seguridad C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Proyecto-ProVis.vbproj.user del archivo se ha creado correctamente</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>bienvenidos.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\bienvenidos.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>bienvenidos.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\bienvenidos.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Confirmar.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Confirmar.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\mediosPagoEntrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\mediosPagoEntrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\mediosPagoEntrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\mediosPagoEntrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\tarjetaEntrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\tarjetaEntrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\tarjetaEntrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\tarjetaEntrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\finalEntrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\finalEntrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\finalEntrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\finalEntrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\transfEntrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\transfEntrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\transfEntrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\transfEntrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\final2Entrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\final2Entrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\final2Entrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\final2Entrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>menu.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\menu.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>menu.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\menu.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\datosEntrega.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\datosEntrega.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\datosEntrega.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\datosEntrega.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\finalRetira.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\finalRetira.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\finalRetira.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\finalRetira.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\final2retira.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\final2retira.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\final2retira.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\final2retira.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\tarjetaRetira.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\tarjetaRetira.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\tarjetaRetira.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\tarjetaRetira.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\transfRetira.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\transfRetira.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\transfRetira.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\transfRetira.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\mediosPagoRetira.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\mediosPagoRetira.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\mediosPagoRetira.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\mediosPagoRetira.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Module1.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Module1.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\AssemblyInfo.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Application.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Application.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Resources.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Resources.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Settings.Designer.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Settings.Designer.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Pedido.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Pedido.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Productos.vb:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Productos.vb</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Application.myapp:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Application.myapp</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Settings.settings:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Settings.settings</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\Captura.PNG:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\Captura.PNG</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\Captura2.PNG:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\Captura2.PNG</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\6395159.png:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\6395159.png</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo.png:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo.png</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo1.png:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo1.png</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\DSADAS.PNG:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\DSADAS.PNG</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\INSTAGRA.PNG:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\INSTAGRA.PNG</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Resources\descarga.png:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Resources\descarga.png</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\tarjetaEntrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\tarjetaEntrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\finalEntrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\finalEntrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\transfEntrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\transfEntrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\datosEntrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\datosEntrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>bienvenidos.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\bienvenidos.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\mediosPagoEntrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\mediosPagoEntrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Entregar\final2Entrega.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Entregar\final2Entrega.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>menu.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\menu.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\mediosPagoRetira.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\mediosPagoRetira.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>My Project\Resources.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\My Project\Resources.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\tarjetaRetira.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\tarjetaRetira.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\transfRetira.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\transfRetira.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\final2retira.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\final2retira.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Para retirar\finalRetira.resx:
+        </strong><span>Se realizó correctamente la copia de seguridad del archivo C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\Backup\Para retirar\finalRetira.resx</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.vbproj:
+        </strong><span>Proyecto migrado correctamente</span></td></tr><tr name="MessageRowClassProyecto-ProVis" style="display: none"><td class="IconInfoEncoded"><a name="Proyecto-ProVisMessage" /></td><td class="messageCell"><strong>Proyecto-ProVis.vbproj:
+        </strong><span>Examen completo: no es necesario migrar los archivos de proyecto.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideProyecto-ProVis"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="Proyecto-ProVisMessage" onclick="ToggleMessageVisibility('Proyecto-ProVis'); return false;">
+          Ocultar 62 mensajes adicionales
+        </a></td></tr></table></div></div></body></html>

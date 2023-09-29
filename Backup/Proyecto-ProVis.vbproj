@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D869072-3ED7-4533-955A-D7E3F247B8D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Proyecto-ProVis</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto-ProVis.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto-ProVis.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bienvenidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bienvenidos.Designer.vb">
+      <DependentUpon>bienvenidos.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmar.vb" />
+    <Compile Include="Entregar\mediosPagoEntrega.Designer.vb">
+      <DependentUpon>mediosPagoEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\mediosPagoEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entregar\tarjetaEntrega.Designer.vb">
+      <DependentUpon>tarjetaEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\tarjetaEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entregar\finalEntrega.Designer.vb">
+      <DependentUpon>finalEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\finalEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entregar\transfEntrega.Designer.vb">
+      <DependentUpon>transfEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\transfEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entregar\final2Entrega.Designer.vb">
+      <DependentUpon>final2Entrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\final2Entrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entregar\datosEntrega.Designer.vb">
+      <DependentUpon>datosEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entregar\datosEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Para retirar\finalRetira.Designer.vb">
+      <DependentUpon>finalRetira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Para retirar\finalRetira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Para retirar\final2retira.Designer.vb">
+      <DependentUpon>final2retira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Para retirar\final2retira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Para retirar\tarjetaRetira.Designer.vb">
+      <DependentUpon>tarjetaRetira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Para retirar\tarjetaRetira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Para retirar\transfRetira.Designer.vb">
+      <DependentUpon>transfRetira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Para retirar\transfRetira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Para retirar\mediosPagoRetira.Designer.vb">
+      <DependentUpon>mediosPagoRetira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Para retirar\mediosPagoRetira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pedido.vb" />
+    <Compile Include="Productos.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Entregar\tarjetaEntrega.resx">
+      <DependentUpon>tarjetaEntrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entregar\finalEntrega.resx">
+      <DependentUpon>finalEntrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entregar\transfEntrega.resx">
+      <DependentUpon>transfEntrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entregar\datosEntrega.resx">
+      <DependentUpon>datosEntrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bienvenidos.resx">
+      <DependentUpon>bienvenidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entregar\mediosPagoEntrega.resx">
+      <DependentUpon>mediosPagoEntrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entregar\final2Entrega.resx">
+      <DependentUpon>final2Entrega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Para retirar\mediosPagoRetira.resx">
+      <DependentUpon>mediosPagoRetira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Para retirar\tarjetaRetira.resx">
+      <DependentUpon>tarjetaRetira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Para retirar\transfRetira.resx">
+      <DependentUpon>transfRetira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Para retirar\final2retira.resx">
+      <DependentUpon>final2retira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Para retirar\finalRetira.resx">
+      <DependentUpon>finalRetira.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6395159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-whatsapp-social-media-instant-messaging-whatsapp-text-logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSADAS.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSTAGRA.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

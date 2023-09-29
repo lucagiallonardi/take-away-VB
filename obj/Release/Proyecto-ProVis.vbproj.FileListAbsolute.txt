@@ -1,0 +1,6 @@
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\WindowsApplication1.Form1.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\WindowsApplication1.Form2.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\WindowsApplication1.Resources.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\Proyecto-ProVis.vbproj.GenerateResource.Cache
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Release\WindowsApplication1.Form3.resources

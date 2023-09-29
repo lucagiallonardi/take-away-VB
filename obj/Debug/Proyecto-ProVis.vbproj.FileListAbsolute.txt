@@ -1,0 +1,67 @@
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.exe
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.pdb
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.xml
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form2.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.vbproj.GenerateResource.Cache
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.exe
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.xml
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.pdb
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form5.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form6.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form7.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form8.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form12.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form13.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form14.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form9.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form11.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form15.resources
+C:\Users\Luca\Documents\Visual Studio 2008\Projects\Proyecto-ProVis\Proyecto-ProVis\obj\Debug\WindowsApplication1.Form4.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.xml
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.pdb
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.exe
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.pdb
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.xml
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.vbproj.GenerateResource.Cache
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.exe
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.bienvenidos.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.menu.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.mediosPagoRetira.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.transfRetira.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.final2retira.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.finalRetira.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.tarjetaEntrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.finalEntrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.transfEntrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.datosEntrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.mediosPagoEntrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.final2Entrega.resources
+C:\Users\lucho\Desktop\TP-ProgVisual\Proyecto-ProVis\obj\Debug\WindowsApplication1.tarjetaRetira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.xml
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.pdb
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.exe
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.pdb
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\bin\Debug\Proyecto-ProVis.xml
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.vbproj.AssemblyReference.cache
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.tarjetaEntrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.finalEntrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.transfEntrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.datosEntrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.bienvenidos.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.mediosPagoEntrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.final2Entrega.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.menu.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.mediosPagoRetira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.tarjetaRetira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.transfRetira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.final2retira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\WindowsApplication1.finalRetira.resources
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.vbproj.GenerateResource.cache
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.vbproj.CoreCompileInputs.cache
+C:\Users\Luca\Downloads\Proyecto-ProVis-20230529T172039Z-001\Proyecto-ProVis\obj\Debug\Proyecto-ProVis.exe
